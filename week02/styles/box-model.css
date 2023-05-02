@@ -4,7 +4,7 @@
     border: 1px;
     padding: 1px solid black;
     background-color:navy;
-    text-decoration-color: white;
+    color: white;
 }
 .callout img {
     float: right;
