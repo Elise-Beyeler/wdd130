@@ -1,14 +1,15 @@
 nav {
     background-color: steelblue;
-    padding: 1em
+    padding: 1em;
 }
 nav a { 
     color: white;
     display: block;
-    padding: 1em
+    padding: 1em;
 }
 main {
-  max-width: 650px  
+  max-width: 650px;  
+  color: #384349;
 }
 h1 {
     color: steelblue;
@@ -25,10 +26,10 @@ p {
 }
 aside {
     margin: 1em;
-    border: 1px solid steelblue;
+    border: 2px solid steelblue;
     padding: 1em;
-    background-color: #384349;
-    color: #A4BFCF;
+    background-color: white;
+    color: #384349;
 }
 aside img {
     width: 200px;
@@ -36,7 +37,7 @@ aside img {
 }
 footer {
     margin-top: 1em;
-    border-top: 5px solid steelblue;
+    border-top: 3px solid steelblue;
     text-align: center;
     
 }
