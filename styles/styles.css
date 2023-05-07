@@ -1,43 +1,65 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color:#384349;
+}
 nav {
-    background-color: steelblue;
+    background-color: rebeccapurple;
     padding: 1em;
 }
 nav a { 
-    color: white;
+    color: antiquewhite;
     display: block;
     padding: 1em;
 }
 main {
-  max-width: 650px;  
+  max-width: 650px; 
+  margin: 10px; 
   color: #384349;
 }
 h1 {
-    color: steelblue;
+    color: rebeccapurple;
 }
 main img {
-    width: 150px;
+    float: right;
+    width: 300px;
     height: auto;
-    border: 1px solid steelblue;
+    border: 1px solid rebeccapurple;
     padding: 2px;
-    box-shadow: 0 0 30px gray;
+    box-shadow: 0 0 30px darkslategray;
 }
 p {
     padding: 0;
 }
 aside {
-    margin: 1em;
-    border: 2px solid steelblue;
-    padding: 1em;
-    background-color: white;
-    color: #384349;
+    width: 15em;
+    text-align: center;
+    position: relative;
+}
+aside h2 {
+   position: absolute;
+    top: 10px;
+    left: 20px;
 }
 aside img {
+    top: 10px;
+    left: 20px;
     width: 200px;
     height: auto;
 }
 footer {
     margin-top: 1em;
-    border-top: 3px solid steelblue;
+    border-top: 3px solid rebeccapurple;
     text-align: center;
     
+}
+/* Class Selectors */
+/* Remember classes need periods! */
+.box {
+    margin: 1rem;
+    border: 1rem solid rebeccapurple;
+    padding: 1rem;
+    background-color: antiquewhite;
+    color: rgb(50, 24, 66);
 }
