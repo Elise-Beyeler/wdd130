@@ -8,43 +8,36 @@
 
     --heading-font: "Sigmar", sans-serif;
     --paragraph-font: "Ysabeau", sans-serif;
-
+    
     --nav-background-color: #D3FFE9;
     --nav-link-color: #141B41;
     --nav-hover-link-color: #352208;
     --nav-hover-background-color: #D3FFE9;
 }
-body {
-    font-family: var(--paragraph-font);
-    max-width: 960px;
-    padding: 20px;
+* {
+    max-width: 600px;
 }
+
 h1,h2,h3,h4,h5,h6 {
     font-family: var(--heading-font);
     color: var(--primary-color);
 }
-header {
-    padding: 20px;
-    background-color: #F5EE9E;
-}  
 p {
-    padding: 7px;
-}
-nav {
-    background-color: var(--nav-background-color);
-    font-size: 1em;
-    display: flex;
-}
-nav a {
-    display: block;
-    color: var(--nav-link-color);
-    text-decoration: none;
+    font-family: var(--paragraph-font);
+    color: var(--border-color);
     padding: 1em;
 }
-nav a:link, nav a:visited {
-    color: var(--nav-link-color);
+nav {
+    text-decoration: none;
 }
-nav a:hover {
-    color: var(--nav-hover-link-color);
-    background-color: var(--nav-hover-background-color);
+.hero h1,
+.hero article {
+    position: absolute;
+}
+.hero img {
+    display: block;
+    float: right;
+    position: relative;
+    width: 600px;
+    height: auto;
 }
