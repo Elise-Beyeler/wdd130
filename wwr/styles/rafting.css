@@ -30,14 +30,36 @@ p {
 nav {
     text-decoration: none;
 }
-.hero h1,
-.hero article {
-    position: absolute;
+.hero h1 {
+    position: relative;
+    font-family: var(--paragraph-font);
+    color: var(--border-color);
+    opacity: 0.9;
+    top: 10px;
+    left: 50%;
+    right: 50%;
+    transform: translate(-50%, -50%);
 }
-.hero img {
+.hero article {
+    position: relative;
+}
+.hero img[src="images/rafting42_600.jpg"] {
+    display: block;
+    position: static;
+    text-align: center;
+}
+.hero article img {
     display: block;
     float: right;
     position: relative;
-    width: 600px;
+    width: 100px;
+    height: auto;
+}
+.hero section img {
+    width: 400px;
+    height: auto;
+}
+footer a img {
+    width: 20px;
     height: auto;
 }
