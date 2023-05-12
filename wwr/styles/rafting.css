@@ -30,6 +30,7 @@ p {
 nav {
     text-decoration: none;
     margin: 1em;
+    font-size: 20px;
     display: flex;
 }
 .hero h1 {
