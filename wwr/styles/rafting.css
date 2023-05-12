@@ -15,7 +15,7 @@
     --nav-hover-background-color: #D3FFE9;
 }
 * {
-    max-width: 600px;
+    max-width: 950px;
 }
 
 h1,h2,h3,h4,h5,h6 {
@@ -29,6 +29,8 @@ p {
 }
 nav {
     text-decoration: none;
+    margin: 1em;
+    display: flex;
 }
 .hero h1 {
     position: relative;
@@ -61,5 +63,18 @@ nav {
 }
 footer a img {
     width: 20px;
+    height: auto;
+}
+header {
+    background-color: var(--nav-background-color);
+    display: grid;
+    margin: 1em;
+    border-bottom: 1px solid var(--border-color);
+    grid-template-columns: 120px 1fr 2fr;
+    align-items: center;
+    max-width: 100%;
+}
+header img {
+    width: 100px;
     height: auto;
 }
