@@ -68,7 +68,6 @@ nav a {
     position: relative;
 }
 .hero section {
-    display: box;
     border: 2px solid var(--border-color);
     background-color: var(--secondary-color);
     padding: 10px;
