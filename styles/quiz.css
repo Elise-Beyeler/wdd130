@@ -33,10 +33,6 @@ select,
 textarea {
     width: 250px;
 }
-input[type="checkbox"] {
-    display: flex;
-    align-items: left;
-}
 button {
     background-color:plum;
     color: antiquewhite;
