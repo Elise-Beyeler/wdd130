@@ -1,0 +1,89 @@
+@import url("https://fonts.googleapis.com/css2?family=Quicksand&family=Playfair+Display&display=swap");
+/* In case I need it. */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: "Playfair Display", serif;
+    max-width: 90%;
+    margin: auto;
+}
+header,
+h1 {
+    color: royalblue;
+    background-color: paleturquoise;
+    text-align: center;
+}
+form {
+    width: 100%;
+    margin: 0 auto;
+    padding: 1rem;
+    border: 5px solid black;
+    border-radius: 0.5rem;
+    background-color: aliceblue;
+    display: grid;
+}
+fieldset {
+    display: grid;
+    grid-gap: 0.5rem;
+    padding: 0.2rem;
+}
+fieldset legend {
+    font-family: inherit;
+    color: forestgreen;
+    font-size: 1rem;
+    font-weight: 600;
+}
+label,
+input,
+button,
+select,
+textarea {
+    font-family: "Quicksand", sans-serif;
+}
+label {
+    text-align: right;
+    padding-right: 0.5rem;
+}
+input,
+select,
+textarea {
+    padding: 0.2rem;
+    font-size: 1.3rem;
+}
+input[type="checkbox"] {
+    width: 35px;
+    height: 35px;
+    vertical-align: bottom;
+}
+button {
+    background-color: forestgreen;
+    color: white;
+    width: 150px;
+    height: 30px;
+    margin:  0.2rem auto;
+
+}
+button:hover {
+    background-color: green;
+}
+footer {
+    margin: 1rem;
+    border-bottom: 1px dotted royalblue;
+    text-align: center;
+    font-weight: 600;
+    color: forestgreen;
+}
+.form-item {
+    display: grid;
+    align-items: center;
+}
+.column-one {
+    grid-template-columns: 3fr 1fr;
+    margin: 0.5rem;
+}
+.column-two {
+    grid-template-columns: 1fr 2fr;
+}
