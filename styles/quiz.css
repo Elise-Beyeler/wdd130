@@ -1,0 +1,54 @@
+@import url("https://fonts.googleapis.com/css2?family=Quicksand&family=Playfair+Display&display=swap");
+* {
+    max-width: 95%;
+    margin: 0.5rem;
+}
+header {
+    width: auto;
+    background-color: plum;
+    color: antiquewhite;
+    font-family: "Playfair Display", serif;
+    text-align: center;
+}
+body {
+    font-family: "Quicksand", sans-serif;
+    border: 5px solid black;
+}
+legend {
+    font-family: "Playfair Display", serif;
+    color: plum;
+    background-color: white;
+    font-weight: 500;
+    font-size: 20px;
+}
+fieldset {
+    background-color: antiquewhite; 
+}
+label,
+input {
+    display: block;
+}
+input,
+select,
+textarea {
+    width: 250px;
+}
+input[type="checkbox"] {
+    display: flex;
+    align-items: left;
+}
+button {
+    background-color:plum;
+    color: antiquewhite;
+    width: 160px;
+    height: 45px;
+    font-size: 18px;
+}
+footer {
+    width: auto;
+    color: plum;
+    font-family: "Playfair Display", serif;
+    text-align: center;
+    border-top: 2px dotted grey;
+}
+
