@@ -1,0 +1,111 @@
+@import url("https://fonts.googleapis.com/css2?family=Sigmar&family=Ysabeau&display=swap");
+:root {
+    --border-color: #352208;
+    --primary-color: #f28123;
+    --secondary-color: #71c3f2;
+    --accent1-color: #F5EE9E;
+    --accent2-color: #D3FFE9;
+
+    --heading-font: "Sigmar", sans-serif;
+    --paragraph-font: "Ysabeau", sans-serif;
+    
+    --nav-background-color: #D3FFE9;
+    --nav-link-color: #141B41;
+    --nav-hover-link-color: #352208;
+    --nav-hover-background-color: #D3FFE9;
+}
+* {
+    max-width: 950px;
+}
+h1,h2,h3,h4,h5,h6 {
+    font-family: var(--heading-font);
+    color: var(--primary-color);
+}
+p {
+    font-family: var(--paragraph-font);
+    color: var(--border-color);
+    padding: 1em;
+}
+header {
+    background-color: var(--nav-background-color);
+    display: grid;
+    margin: 1em;
+    border-bottom: 1px solid var(--border-color);
+    grid-template-columns: 120px 1fr 2fr;
+    align-items: center;
+    max-width: 100%;
+}
+header img {
+    width: 100px;
+    height: auto;
+    margin: 7px;
+}
+nav a {
+    text-decoration: none;
+    margin: 1em;
+    font-size: 20px;  
+}
+.flex {
+    display: flex;
+    justify-content: space-evenly;
+}
+.hero h1 {
+    position: relative;
+    color: var(--primary-color);
+    opacity: 0.9;
+    top: 10px;
+    left: 50%;
+    right: 50%;
+    transform: translate(-50%, -50%);
+    display: grid;
+    justify-content: center;
+}
+.hero h2 {
+    display: grid;
+    justify-content: center;
+}
+.hero article {
+    position: relative;
+}
+.hero section {
+    border: 2px solid var(--border-color);
+    background-color: var(--secondary-color);
+    padding: 10px;
+    margin: 1em;
+}
+.hero img[src="images/rafting42_600.jpg"] {
+    display: block;
+    position: static;
+    margin: 1em;
+    width: 700px;
+}
+.hero img[src="images/rafting21_600.png"] {
+    width: 200px;
+}
+article p {
+    padding-top: 1em;
+    padding-bottom: 1em;
+    font-size: 19px;
+}
+.hero article img {
+    display: block;
+    float: right;
+    position: relative;
+    width: 200px;
+    height: auto;
+    margin: 1em;
+}
+.hero figure img {
+    width: 600px;
+    height: auto;
+}
+footer {
+    background-color: var(--accent2-color);
+    display: flex;
+    align-items: center;
+}
+footer a img {
+    width: 20px;
+    height: auto;
+    padding: 10px;
+}
