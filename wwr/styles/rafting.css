@@ -78,6 +78,7 @@ article p {
     padding-top: 1em;
     padding-bottom: 1em;
     font-size: 19px;
+    color: var(--accent2-color);
 }
 .hero article img {
     display: block;
