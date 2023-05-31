@@ -25,12 +25,22 @@ p, figcaption, form, ul {
     font-family: var(--paragraph-font);
     color: var(--primary-color);
 }
+ul {
+    list-style-type: none;
+}
 nav a, a {
     text-decoration: none; 
 }
 nav a {
     margin: 1em;
     font-size: 20px; 
+}
+nav a:link, nav a:visited {
+    color: var(--nav-link-color);
+}
+nav a:hover {
+    color: var(--nav-hover-link-color);
+    background-color: var(--nav-hover-background-color);
 }
 header img {
     width: 100px;
@@ -47,8 +57,14 @@ header img {
 .hero div {
     position: relative;
 }
-.hero h1, .hero article {
+.hero h1, h2, .hero article {
     position: absolute;
+}
+.hero h1, h2 {
+    position: relative;
+    color: var(--primary-color);
+    display: grid;
+    justify-content: center;
 }
 .hero article {
     background-color: var(--secondary-color);
@@ -68,4 +84,19 @@ footer a img {
     width: 20px;
     height: auto;
     padding: 0;
+}
+section img {
+    max-width: 200px;
+}
+table {
+    color: var(--primary-color);
+}
+form button {
+    background-color: var(--accent1-color);
+    color: var(--secondary-color);
+    width: 100px;
+    display: grid;
+    justify-self: center;
+    margin-top: 4em;
+    margin-bottom: 1em;
 }
