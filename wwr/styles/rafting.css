@@ -4,6 +4,7 @@
     --secondary-color: #141B41;
     --accent1-color: #D3FFE9;
     --accent2-color: #B4E1F9;
+    --hero-color: rgb(20,27,65);
 
     --heading-font: "Bruno Ace SC", sans-serif;
     --paragraph-font: "Quicksand", sans-serif;
@@ -87,7 +88,7 @@ header img {
     display: flex;
     justify-content: space-evenly;
 }
-.hero div {
+.hero div img {
     position: relative;
 }
 .hero h1, h2, .hero article {
@@ -100,14 +101,16 @@ header img {
     justify-content: center;
 }
 .hero article {
-    background-color: var(--secondary-color);
+    background-color: rgba(var(--hero-color), 0.9);
     max-height: 200px;
+    top: 250px;
 }
 .hero article img {
     display: block;
     float: right;
     max-width: 200px;
 }
+
 footer, footer p {
     display: flex;
     align-items: center;
