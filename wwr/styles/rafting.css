@@ -10,26 +10,55 @@
     
     --nav-background-color: #D3FFE9;
     --nav-link-color: #141B41;
+    --other-nav-link-color: #72183C;
     --nav-hover-link-color: #B4E1F9;
     --nav-hover-background-color: #141B41;
 }
 * {
     background-color: var(--secondary-color);
     max-width: 965px;
+    margin: auto;
 }
 h1, h2, h3, h4, h5, h6 {
     font-family: var(--heading-font);
     color: var(--primary-color);
 }
-p, figcaption, form, ul {
+p, form, ul {
     font-family: var(--paragraph-font);
+    color: var(--primary-color);
+    margin: 1rem;
+}
+form {
+    display: grid;
+    max-width: 95%;
+}
+textarea, input {
     color: var(--primary-color);
 }
 ul {
     list-style-type: none;
+    margin: 1rem;
+}
+figcaption {
+    font-family: var(--paragraph-font);
+    color: var(--primary-color);
+}
+header, header p {
+    background-color: var(--accent1-color);
+    color: var(--secondary-color)
+}
+header p a {
+    color: var(--other-nav-link-color);
+}
+nav {
+    background-color: var(--nav-background-color);
+    color: var(--nav-link-color);
 }
 nav a, a {
     text-decoration: none; 
+    background-color: var(--nav-background-color);
+    color: var(--nav-link-color);
+    font-weight: 700;
 }
 nav a {
     margin: 1em;
@@ -41,6 +70,10 @@ nav a:link, nav a:visited {
 nav a:hover {
     color: var(--nav-hover-link-color);
     background-color: var(--nav-hover-background-color);
+}
+figure a, ul a {
+    color: var(--nav-background-color);
+    background-color: var(--nav-link-color);
 }
 header img {
     width: 100px;
@@ -75,10 +108,12 @@ header img {
     float: right;
     max-width: 200px;
 }
-footer {
+footer, footer p {
     display: flex;
     align-items: center;
     height: 6em;
+    background-color: var(--accent1-color);
+    color: var(--secondary-color)
 }
 footer a img {
     width: 20px;
@@ -90,8 +125,12 @@ section img {
 }
 table {
     color: var(--primary-color);
+    padding-top: 1rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    padding-bottom: 2rem;
 }
-form button {
+button {
     background-color: var(--accent1-color);
     color: var(--secondary-color);
     width: 100px;
