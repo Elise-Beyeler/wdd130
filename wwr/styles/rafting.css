@@ -1,0 +1,71 @@
+@import url("https://fonts.googleapis.com/css2?family=Bruno+Ace+SC&family=Quicksand&display=swap");
+:root {
+    --primary-color: #FFFFFF;
+    --secondary-color: #141B41;
+    --accent1-color: #D3FFE9;
+    --accent2-color: #B4E1F9;
+
+    --heading-font: "Bruno Ace SC", sans-serif;
+    --paragraph-font: "Quicksand", sans-serif;
+    
+    --nav-background-color: #D3FFE9;
+    --nav-link-color: #141B41;
+    --nav-hover-link-color: #B4E1F9;
+    --nav-hover-background-color: #141B41;
+}
+* {
+    background-color: var(--secondary-color);
+    max-width: 965px;
+}
+h1, h2, h3, h4, h5, h6 {
+    font-family: var(--heading-font);
+    color: var(--primary-color);
+}
+p, figcaption, form, ul {
+    font-family: var(--paragraph-font);
+    color: var(--primary-color);
+}
+nav a, a {
+    text-decoration: none; 
+}
+nav a {
+    margin: 1em;
+    font-size: 20px; 
+}
+header img {
+    width: 100px;
+    height: auto;
+    margin: 7px;
+}
+.grid-container {
+    display: grid;
+}
+.flex-container {
+    display: flex;
+    justify-content: space-evenly;
+}
+.hero div {
+    position: relative;
+}
+.hero h1, .hero article {
+    position: absolute;
+}
+.hero article {
+    background-color: var(--secondary-color);
+    max-height: 200px;
+}
+.hero article img {
+    display: block;
+    float: right;
+    max-width: 200px;
+}
+footer {
+    display: flex;
+    align-items: center;
+    height: 6em;
+}
+footer a img {
+    width: 20px;
+    height: auto;
+    padding: 0;
+}
